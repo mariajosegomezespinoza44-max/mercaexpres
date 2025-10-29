@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mercado Express - Presentación</title>
+    <meta name="description" content="Página de presentación del juego Mercado Express: galería de imágenes y video trailer." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container nav-inner">
+        <a class="brand" href="#top" aria-label="Inicio">Mercado Express</a>
+        <ul class="nav-links">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#galeria">Niveles</a></li>
+          <li><a href="#video">Trailer</a></li>
+          <li><a href="#creadores">Creadores</a></li>
+        </ul>
+        <a class="btn btn-pixel nav-cta" href="#galeria">Descargar ahora</a>
+      </div>
+    </nav>
+    <header class="hero" role="banner" aria-label="Portada de Mercado Express">
+      <div class="overlay"></div>
+      <div class="hero-content container">
+        <p>Bienvenido. ¡Prepárate para el ritmo del mercado!</p>
+        <a class="btn btn-pixel" href="#galeria">Ver más</a>
+      </div>
+    </header>
+
+    <div class="divider divider-clouds" aria-hidden="true"></div>
+
+    <main>
+      <section class="container intro" id="sobre">
+        <h2>Sobre el juego</h2>
+        <p>
+          Mi juego se llama <em>Mercado Exprés</em>. La idea principal es mostrar cómo las
+          <strong>decisiones económicas</strong> que tomamos, incluso en un mundo digital, tienen consecuencias reales.
+          y <strong>adaptarse</strong> a los cambios.
+        </p>
+      </section>
+
+      <div class="divider divider-clouds" aria-hidden="true"></div>
+
+      <section class="container story" id="historia" aria-label="Historia de Mercado Exprés">
+        <h2>Historia</h2>
+        <p>
+          Sos un joven emprendedor que hereda el puesto del <em>abuelo</em> en el mercado digital. Los precios cambian,
+          los clientes se impacientan y cada decisión cuenta. El consejo del abuelo guía todo: <strong>“no se trata de vender más, sino de entender mejor”.</strong>
+        </p>
+      </section>
+
+      <div class="divider divider-clouds" aria-hidden="true"></div>
+
+      <section class="container gameplay" id="jugabilidad" aria-label="Jugabilidad de Mercado Exprés">
+        <h2>Jugabilidad</h2>
+        <ul class="list-pixel">
+          <li><strong>Nivel 1 – La ilusión del control:</strong> abrir el puesto y priorizar atención + estrategia.</li>
+          <li><strong>Nivel 2 – El valor del riesgo:</strong> inflación, stock y decisiones pensando a mediano plazo.</li>
+          <li><strong>Nivel 3 – Crisis y decisiones:</strong> precios inestables, resiliencia y aprendizaje aplicado.</li>
+        </ul>
+      </section>
+
+      <div class="divider divider-clouds" aria-hidden="true"></div>
+
+      <section class="container levels" id="galeria" aria-label="Niveles del juego">
+        <h2>Niveles</h2>
+        <div class="levels-grid">
+          <article class="level-card" data-title="Menú / Inicio" data-desc="Punto de partida: configura tu partida y prepárate para abrir el mercado." data-img="img/img1portada.jpg" tabindex="0">
+            <img src="img/img1portada.jpg" alt="Menú principal de Mercado Express" loading="lazy" />
+            <div class="level-info">
+              <h3>Menú / Inicio</h3>
+              <p>Configura y comienza tu partida</p>
+            </div>
+          </article>
+          <article class="level-card" data-title="Nivel 1 – La ilusión del control" data-desc="Encuentra la carta del abuelo y resuelve una adivinanza para abrir el mercado. Aprendes que la atención y la estrategia valen más que la rapidez." data-img="img/imgnivel1.jpg" tabindex="0">
+            <img src="img/imgnivel1.jpg" alt="Nivel 1 de Mercado Express" loading="lazy" />
+            <div class="level-info">
+              <h3>Nivel 1 – La ilusión del control</h3>
+              <p>Atención y estrategia antes que velocidad</p>
+            </div>
+          </article>
+          <article class="level-card" data-title="Nivel 2 – El valor del riesgo" data-desc="Empieza la inflación: a veces se gana, otras se pierde. Guardar productos puede ser riesgo u oportunidad. Pensar en el mediano plazo es clave." data-img="img/imgnivel2.jpg" tabindex="0">
+            <img src="img/imgnivel2.jpg" alt="Nivel 2 de Mercado Express" loading="lazy" />
+            <div class="level-info">
+              <h3>Nivel 2 – El valor del riesgo</h3>
+              <p>Riesgo, oportunidad y mirada a mediano plazo</p>
+            </div>
+          </article>
+          <article class="level-card" data-title="Nivel 3 – Crisis y decisiones" data-desc="El mercado colapsa y los precios cambian sin aviso. Decisiones rápidas basadas en lo aprendido: la resiliencia vale más que el dinero." data-img="img/imgnivel3.jpg" tabindex="0">
+            <img src="img/imgnivel3.jpg" alt="Nivel 3 de Mercado Express" loading="lazy" />
+            <div class="level-info">
+              <h3>Nivel 3 – Crisis y decisiones</h3>
+              <p>Resiliencia y experiencia ante la crisis</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <div class="divider divider-clouds" aria-hidden="true"></div>
+
+      <section class="container video" id="video" aria-label="Video trailer de Mercado Express">
+        <h2>Trailer</h2>
+        <div class="video-frame">
+          <video controls preload="metadata" poster="img/img1portada.jpg">
+            <source src="video/videotrailer.mp4" type="video/mp4" />
+            Tu navegador no soporta la etiqueta de video. Puedes descargarlo
+            <a href="video/videotrailer.mp4">aquí</a>.
+          </video>
+        </div>
+      </section>
+    </main>
+
+    <div class="divider divider-clouds" aria-hidden="true"></div>
+
+    <section class="container cta" id="storyboard" aria-label="Storyboard del proyecto">
+      <h2>Storyboard (PDF)</h2>
+      <p class="cta-desc">Podés ver o descargar el storyboard completo del proyecto en PDF.</p>
+      <div class="cta-actions">
+        <a class="btn btn-pixel" href="Storyboard_Juego.pdf" target="_blank" rel="noopener">Ver PDF</a>
+      </div>
+    </section>
+
+    <section class="container creators" id="creadores" aria-label="Creadores de Mercado Express">
+      <h2>Creadores</h2>
+      <p class="creators-desc">Conocé al equipo detrás de <strong>Mercado Exprés</strong>. Hicimos este proyecto con cariño, mucha iteración y espíritu retro.</p>
+      <figure class="creators-figure">
+        <img id="creators-img" src="img/img_encargados/encargados.jpg" alt="Encargados y creadores del juego Mercado Express" loading="lazy" />
+        <figcaption>Equipo de desarrollo de Mercado Exprés</figcaption>
+      </figure>
+      
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© <span id="year"></span> Mercado Express</p>
+      </div>
+    </footer>
+
+    <script>
+      // Actualiza el año del footer
+      document.getElementById('year').textContent = new Date().getFullYear();
+
+      // Modal de niveles
+      (function () {
+        const modal = document.createElement('div');
+        modal.className = 'modal hidden';
+        modal.innerHTML = `
+          <div class="modal-backdrop" data-close></div>
+          <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+            <button class="modal-close" aria-label="Cerrar" data-close>&times;</button>
+            <img class="modal-image" alt="Imagen del nivel seleccionado" />
+            <div class="modal-body">
+              <h3 id="modal-title"></h3>
+              <p id="modal-desc"></p>
+            </div>
+          </div>
+        `;
+        document.body.appendChild(modal);
+
+        const modalImg = modal.querySelector('.modal-image');
+        const modalTitle = modal.querySelector('#modal-title');
+        const modalDesc = modal.querySelector('#modal-desc');
+
+        function openModal({ title, desc, img }) {
+          modalTitle.textContent = title;
+          modalDesc.textContent = desc;
+          modalImg.src = img;
+          modal.classList.remove('hidden');
+          requestAnimationFrame(() => modal.classList.add('open'));
+          document.body.style.overflow = 'hidden';
+        }
+        function closeModal() {
+          modal.classList.remove('open');
+          modal.addEventListener('transitionend', () => modal.classList.add('hidden'), { once: true });
+          document.body.style.overflow = '';
+        }
+
+        modal.addEventListener('click', (e) => {
+          if (e.target.matches('[data-close]')) closeModal();
+        });
+        window.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape' && !modal.classList.contains('hidden')) closeModal();
+        });
+
+        document.querySelectorAll('.level-card').forEach(card => {
+          const data = {
+            title: card.getAttribute('data-title'),
+            desc: card.getAttribute('data-desc'),
+            img: card.getAttribute('data-img')
+          };
+          card.addEventListener('click', () => openModal(data));
+          card.addEventListener('keydown', (e) => { if (e.key === 'Enter') openModal(data); });
+        });
+      })();
+
+      
+    </script>
+  </body>
+</html>
